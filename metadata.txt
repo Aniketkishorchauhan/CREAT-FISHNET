@@ -1,0 +1,19 @@
+[general]
+name=Fishnet Creator
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+description=Create fishnet polygon/polyline grids — equivalent to ArcGIS Create Fishnet. Pixel-perfect raster alignment, unit selector, clip to boundary, temporary layer support.
+version=1.1.0
+author=Cyanide
+email=your@email.com
+about=Generates fishnet grids from any layer extent or raster pixel grid. Features: pixel-perfect raster alignment via GDAL geotransform, cell size unit selector (m/km/ft/mi/yd/nmi/degrees), live coverage feedback, clip to polygon layer, optional centroid label points, polygon or polyline output, temporary scratch layer mode. Compatible with QGIS 3.x and 4.x.
+tracker=https://github.com/Aniketkishorchauhan/CREAT-FISHNET/issues
+repository=https://github.com/Aniketkishorchauhan/CREAT-FISHNET
+homepage=https://github.com/Aniketkishorchauhan/CREAT-FISHNET
+tags=fishnet, grid, vector, polygon, polyline, raster, pixel, extent, sampling, remote sensing
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+server=False
